@@ -1,0 +1,25 @@
+body {
+    margin:20px;
+}
+
+.stock {
+    background-color: #999999;
+    padding: 5px;
+    margin:10px;
+    border-radius:10px;
+}
+
+.sales {
+    background-color: #656565;
+    padding: 5px;
+    margin:10px;
+    border-radius:10px;
+}
+
+.liveStock {
+    background-color: #909090;
+    padding: 5px;
+    margin:10px;
+    border-radius:10px;
+}
+

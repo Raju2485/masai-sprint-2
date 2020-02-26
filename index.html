@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <div class="stock">
+        <h1> Add Stock </h1>
+        <select  id="addStock">
+            <option id="addRice" value="rice"> Rice </option>
+            <option id="addSugar" value="sugar"> Sugar </option>
+            <option id="addTeaPowder" value="teaPowder"> Tea powder </option>
+            <option id="addGinger" value="ginger"> Ginger </option>
+        </select>
+        <input type="number" id="inputValue">
+        <button onclick="pushInventory()"> Add to Inventory </button>
+        <br>
+        <hr>
+    </div>
+
+    <div class="sales">
+        <h1> Sales </h1>
+        <select id="addSales" >
+            <option value="rice"> Rice </option>
+            <option value="sugar"> Sugar </option>
+            <option value="teaPowder"> Tea powder </option>
+            <option value="ginger"> Ginger </option>
+        </select>
+        <input type="number" id="soldValue"> 
+        <button onclick="pushSales()"> Sell it </button>
+        <br>
+        <hr>
+    </div>
+
+    <div class="liveStock">
+        
+        <h1> Live Stock Available </h1>
+        <p id="balanceRice"> Rice: </p>
+        <p id="balanceSugar"> Sugar: </p>
+        <p id="balanceTeaPowder"> Tea powder: </p>
+        <p id="balanceGinger"> Ginger: </p>
+        <br>
+        <hr>
+    </div>
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
