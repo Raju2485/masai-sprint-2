@@ -1,25 +1,57 @@
+
 body {
-    margin:20px;
+background-color: rgb(98, 128, 129);
+}
+.inContainer {
+    margin:10px auto;
+    width:98%;
+    border-radius: 10px;
+    background-color: rgb(199, 167, 126);
+    padding:10px;
 }
 
-.stock {
-    background-color: #999999;
-    padding: 5px;
+.outContainer {
+    margin:10px auto;
+    width:98%;
+    border-radius: 10px;
+    background-color: rgb(165, 199, 126);
+    padding:10px;
+}
+.outContainer2 {
+    margin:10px auto;
+    width:98%;
+    border-radius: 10px;
+    background-color: rgb(126, 199, 181);
+    padding:10px;
+}
+
+lable {
+    width: 250px;
+    display:inline-block;
     margin:10px;
-    border-radius:10px;
 }
 
-.sales {
-    background-color: #656565;
-    padding: 5px;
-    margin:10px;
-    border-radius:10px;
+#button{
+    width: 200px;
+    margin-top:10px;
 }
 
-.liveStock {
-    background-color: #909090;
-    padding: 5px;
-    margin:10px;
-    border-radius:10px;
+span {
+    width:200px;
+    display: inline-block;
+    text-align: left;
+    padding:10px;
+    
 }
-
+#resFooter {
+    font-weight: bold;
+}
+.center {
+    text-align: center;
+}
+.strong {
+    font-weight: bold;
+}
+.inline{
+    display:inline;
+}
